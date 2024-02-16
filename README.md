@@ -5,5 +5,5 @@ A work-in-progress tool to generate readable function callgraphs for Golang pack
 ## Usage
 
 ```
-go run main.go -d <package_path> | dot -Tsvg -o graph.svg
+go build && ./callgraph -d <package_path> | dot -Tsvg -o graph.svg
 ```
